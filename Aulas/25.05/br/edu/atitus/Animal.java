@@ -1,3 +1,5 @@
+package br.edu.atitus;
+
 public abstract class Animal {
 
     public final String VERSAO = "2.5";
