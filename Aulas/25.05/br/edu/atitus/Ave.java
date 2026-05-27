@@ -1,13 +1,13 @@
 package br.edu.atitus;
-
-public class Ave extends Animal{
+public abstract class Ave extends Animal{
+     
     private String corPenas;
 
     public Ave(String nome, Integer idade, String corPenas) {
         super(nome, "Ave", idade);
         this.corPenas = corPenas;
     }
- 
+
     public String getCorPenas() {
         return corPenas;
     }
